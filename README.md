@@ -229,4 +229,6 @@ The **Smart Fan system** demonstrates practical embedded systems design by combi
 
 “The design uses a PCB‑mount SPDT relay (Form C) with a 9 V DC coil (≈225 Ω, ≈0.36 W) and a 10 A contact rating at 24 VDC. The coil is driven from an Arduino digital output (conceptually via a transistor in real hardware). The relay’s COM contact is tied to the 9 V motor supply, the NO contact feeds the L293D motor driver VCC2, and the NC contact is left unconnected. The relay provides galvanic isolation and a master ON/OFF for the motor driver’s supply.”
 
-![Smart Fan Block Diagram](/smart_fan_schematic_diagram.png)
+![Smart Fan Schematic Diagram](/smart_fan_schematic_diagram.png)
+
+![Smart Fan Circuit Design](/smart_fan_circuit_design.png)
