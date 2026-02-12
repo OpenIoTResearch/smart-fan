@@ -275,3 +275,5 @@ Can be extended with Wi-Fi (ESP32), MQTT, or remote monitoring
 6. Final Summary (Interview-Ready)
 
 The Smart Fan system demonstrates practical embedded systems design by combining temperature sensing, PWM motor control, relay-based power isolation, and inductive load protection. The design prioritizes safety, reliability, and clean firmware structure while allowing both automatic and manual control of the fan.
+
+“The design uses a PCB‑mount SPDT relay (Form C) with a 9 V DC coil (≈225 Ω, ≈0.36 W) and a 10 A contact rating at 24 VDC. The coil is driven from an Arduino digital output (conceptually via a transistor in real hardware). The relay’s COM contact is tied to the 9 V motor supply, the NO contact feeds the L293D motor driver VCC2, and the NC contact is left unconnected. The relay provides galvanic isolation and a master ON/OFF for the motor driver’s supply.”
