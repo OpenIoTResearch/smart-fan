@@ -232,3 +232,5 @@ The **Smart Fan system** demonstrates practical embedded systems design by combi
 ![Smart Fan Schematic Diagram](/smart_fan_schematic_diagram.png)
 
 ![Smart Fan Circuit Design](/smart_fan_circuit_design.png)
+
+[View project on Tinkercard](https://www.tinkercad.com/things/khXwN74ROxL-smart-fan)
